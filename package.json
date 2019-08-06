@@ -1,6 +1,6 @@
 {
   "name": "colissimo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generates Colissimo labels and return labels",
   "main": "index.js",
   "dependencies": {
