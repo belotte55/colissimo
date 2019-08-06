@@ -55,6 +55,7 @@ Colissimo.prototype.generate_label = function ({ sender = { }, receiver = { }, p
 							countryCode: 'FR',
 							city: sender.city || undefined,
 							zipCode: sender.zip_code || undefined,
+							phoneNumber: receiver.phone || undefined,
 							mobileNumber: sender.phone_number || undefined,
 							email: sender.mail || undefined,
 							language: 'FR'
@@ -70,6 +71,7 @@ Colissimo.prototype.generate_label = function ({ sender = { }, receiver = { }, p
 							countryCode: 'FR',
 							city: receiver.city || undefined,
 							zipCode: receiver.zip_code || undefined,
+							phoneNumber: receiver.phone || undefined,
 							mobileNumber: receiver.phone_number || undefined,
 							email: receiver.mail || undefined,
 							language: 'FR'
